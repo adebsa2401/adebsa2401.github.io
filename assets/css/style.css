@@ -24,13 +24,7 @@ header {
 }
 
 #logo {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
   width: 100px;
-  color: #fff;
 }
 
 #logo img {
