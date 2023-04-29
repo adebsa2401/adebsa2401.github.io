@@ -225,13 +225,16 @@ button {
   background-position: bottom right;
   background-repeat: no-repeat;
   padding: 120px 24px 200px 24px;
+  text-align: justify;
 }
 
 .collapsed {
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 5;
+  line-clamp: 5;
   -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 
 #read-more {
