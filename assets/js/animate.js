@@ -18,7 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
   observeElements('#presentation-block h1', 'animate__fadeInLeft');
   observeElements('#presentation-block h2', 'animate__zoomIn');
   observeElements('#presentation-block p', 'animate__fadeInRight');
-  observeElements('#headline .social-medias', 'animate__fadeInDown');
+  observeElements('#headline .social-medias li:nth-child(-n+2)', 'animate__fadeInDown');
+  observeElements('#headline .social-medias li:nth-child(3)', 'animate__zoomIn');
+  observeElements('#headline .social-medias li:nth-child(n+4)', 'animate__fadeInUp');
 
   // projects section
   observeElements('#recent-works h1', 'animate__fadeInLeft');
