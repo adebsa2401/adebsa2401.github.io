@@ -13,220 +13,253 @@
 </head>
 
 <body>
-    <!-- mobile menu start -->
-    <div id="mobile-menu" hidden>
-        <div id="mobile-menu-content">
-            <a id="close-menu-icon" href="javascript:void()" class="menu-item">
-                <img src="assets/images/close.svg" alt="close" class="icon"/>
-            </a>
-            
-            <a class="menu-item" href="#recent-works">Portfolio</a>
-            <hr />
-            <a class="menu-item" href="#about-section">About</a>
-            <hr />
-            <a class="menu-item" href="#contact-section">Contact</a>
-            <hr />
-        </div>
-    </div>
-    <!-- mobile menu end -->
-
-    <!-- header start -->
-    <header>
-        <a id="logo" href="#">
-            Adebsa
+<!-- mobile menu start -->
+<div id="mobile-menu" hidden>
+    <div id="mobile-menu-content">
+        <a id="close-menu-icon" href="javascript:void()" class="menu-item">
+            <img src="assets/images/close.svg" alt="close" class="icon"/>
         </a>
-        <nav>
-            <!-- Mobile version nav start -->
-            <a id="menu-icon" class="nav-menu" href="javascript:void()">
-                <img src="assets/images/menu.svg" alt="menu" class="icon"/>
-            </a>
-            <!-- Mobile version nav end -->
 
-            <!-- Desktop version nav start -->
-            <ul class="nav-menu" hidden>
-                <li><a href="#recent-works">Portfolio</a></li>
-                <li><a href="#about-section">About</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-                <li>
-                    <a href="#" title="Mail us">
-                        <img src="assets/images/mail.svg" alt="Mail us" class="icon"/>
-                    </a>
-                </li>
-            </ul>
-            <!-- Desktop version nav end -->
-        </nav>
-    </header>
-    <!-- header end -->
-
-    <!-- main start -->
-    <div id="main">
-        <!-- headline start -->
-        <section id="headline">
-            <div id="presentation-block">
-                <h1>Hey There. I'm Ben Salès</h1>
-                <h2>I am a Software Developer</h2>
-                <p>
-                    I can help you build a product , feature or website Look through some of my work and experience! If you
-                    like what you see and have a project you need coded,
-                    don’t hestiate to contact me.
-                </p>
-            </div>
-
-            <!-- social medias start -->
-            <ul class="social-medias">
-                <li>
-                    <a href="https://www.github.com/adebsa2401" target="_blank" rel="noopener" title="Github">
-                        <img src="assets/images/github.svg" alt="github" class="icon"/>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/ben-sal%C3%A8s-2688651b6" target="_blank" rel="noopener" title="Linkedin">
-                        <img src="assets/images/linkedin.svg" alt="linkedin" class="icon"/>
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void()" target="_blank" rel="noopener" title="Angellist">
-                        <img src="assets/images/angellist.svg" alt="angellist" class="icon"/>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com/Adebsa3" target="_blank" rel="noopener" title="Twitter">
-                        <img src="assets/images/twitter.svg" alt="twitter" class="icon"/>
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void()" target="_blank" rel="noopener" title="Medium">
-                        <img src="assets/images/medium.svg" alt="medium" class="icon"/>
-                    </a>
-                </li>
-            </ul>
-            <!-- social medias end -->
-        </section>
-        <!-- headline end -->
-
-        <!-- Recent Works section start -->
-        <section id="recent-works" class="nav-section">
-            <div>
-                <h1 class="section-title">My Recent Works</h1>
-                <hr/>
-            </div>
-
-            <!-- projects list start -->
-            <div id="projects-list">
-                <div id="projects-grid">
-                </div>
-            </div>
-            <!-- projects list end -->
-        </section>
-        <!-- Recent Works section end -->
-
-        <!-- About Me section start -->
-        <section id="about-section" class="nav-section">
-            <div id="resume-block">
-                <h1>About me</h1>
-                <p>
-                    Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                </p>
-                <button id="resume-button" type="button">Get My Resume</button>
-            </div>
-
-            <hr id="about-hr"/>
-
-            <div id="skills-block">
-                <ul>
-                    <div class="skill-title-block">
-                        <div id="languages-logo" class="about-logo"></div>
-                        <h2 class="skill-title">Languages</h2>
-                    </div>
-                    <li>JavaScript</li>
-                    <li>Ruby</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
-
-                <ul>
-                    <div class="skill-title-block">
-                        <div id="frameworks-logo" class="about-logo"></div>
-                        <h2 class="skill-title">Frameworks</h2>
-                    </div>
-                    <li>Bootstrap</li>
-                    <li>Ruby on Rails</li>
-                    <li>RSPec</li>
-                    <li>CapyBara</li>
-                    <li>Selenium</li>
-                </ul>
-                    
-                <ul>
-                    <div class="skill-title-block">
-                        <div id="skills-logo" class="about-logo"></div>
-                        <h2 class="skill-title">Skills</h2>
-                    </div>
-                    <li>Codekit</li>
-                    <li>Github</li>
-                    <li>Codepen</li>
-                    <li>Gitlab</li>
-                    <li>Terminal</li> 
-                </ul>    
-            </div>
-        </section>
-        <!-- About Me section end -->
-
-        <!-- Footer start -->
-        <footer id="contact-section" class="nav-section">
-            <p>
-                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-            </p>
-            <form action="https://formspree.io/f/mrgdqoqz" method="post">
-                <input class="form-input" type="text" name="full_name" maxlength="30" placeholder="Full name" required>
-                <input class="form-input" type="email" name="email" placeholder="Email address" required>
-                <textarea class="form-input" name="comment" cols="30" rows="3" maxlength="500" placeholder="Enter text here" required></textarea>
-                <div id="submit-error-div">
-                    <button type="submit">Get in touch</button>
-                </div>
-            </form>
-
-            <hr/>
-
-            <!-- social medias start -->
-            <ul class="social-medias">
-                <li>
-                    <a href="https://www.github.com/adebsa2401" target="_blank" rel="noopener" title="Github">
-                        <img src="assets/images/github-black.svg" alt="github" class="icon" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/ben-sal%C3%A8s-2688651b6" target="_blank" rel="noopener"
-                        title="Linkedin">
-                        <img src="assets/images/linkedin-black.svg" alt="linkedin" class="icon" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void()" target="_blank" rel="noopener" title="Angellist">
-                        <img src="assets/images/angellist-black.svg" alt="angellist" class="icon" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.twitter.com/Adebsa3" target="_blank" rel="noopener" title="Twitter">
-                        <img src="assets/images/twitter-black.svg" alt="twitter" class="icon" />
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:void()" target="_blank" rel="noopener" title="Medium">
-                        <img src="assets/images/medium-black.svg" alt="medium" class="icon" />
-                    </a>
-                </li>
-            </ul>
-            <!-- social medias end -->
-        </footer>
-        <!-- Footer end -->
+        <a class="menu-item" href="#recent-works">Portfolio</a>
+        <hr/>
+        <a class="menu-item" href="#about-section">About</a>
+        <hr/>
+        <a class="menu-item" href="#contact-section">Contact</a>
+        <hr/>
     </div>
-    <!-- main end -->
+</div>
+<!-- mobile menu end -->
 
-    <!-- scripts start -->
-    <script src="assets/js/menu.js"></script>
-    <script type="module" src="assets/js/projects.js"></script>
-    <script src="assets/js/validation.js"></script>
-    <script src="assets/js/form-storage.js"></script>
-    <!-- scripts end -->
+<!-- header start -->
+<header>
+    <a id="logo" href="#">
+        Adebsa
+    </a>
+    <nav>
+        <!-- Mobile version nav start -->
+        <a id="menu-icon" class="nav-menu" href="javascript:void()">
+            <img src="assets/images/menu.svg" alt="menu" class="icon"/>
+        </a>
+        <!-- Mobile version nav end -->
+
+        <!-- Desktop version nav start -->
+        <ul class="nav-menu" hidden>
+            <li><a href="#recent-works">Portfolio</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+            <li>
+                <a href="mailto:adebsa2401@gmail.com" title="Mail us" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/mail.svg" alt="Mail us" class="icon"/>
+                </a>
+            </li>
+        </ul>
+        <!-- Desktop version nav end -->
+    </nav>
+</header>
+<!-- header end -->
+
+<!-- main start -->
+<div id="main">
+    <!-- headline start -->
+    <section id="headline">
+        <div id="presentation-block">
+            <h1>Hey There. I'm Ben Salès</h1>
+            <h2>I am a Software Developer</h2>
+            <p>
+                I can help you build a product , feature or website Look through some of my work and experience! If you
+                like what you see and have a project you need coded,
+                don’t hestiate to contact me.
+            </p>
+        </div>
+
+        <!-- social medias start -->
+        <ul class="social-medias">
+            <li>
+                <a href="https://www.github.com/adebsa2401" target="_blank" rel="noopener" title="Github">
+                    <img src="assets/images/github.svg" alt="github" class="icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/adebsa" target="_blank" rel="noopener"
+                   title="Linkedin">
+                    <img src="assets/images/linkedin.svg" alt="linkedin" class="icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://wellfound.com/u/adebsa" target="_blank" rel="noopener" title="Angellist">
+                    <img src="assets/images/angellist.svg" alt="angellist" class="icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/Adebsa3" target="_blank" rel="noopener" title="Twitter">
+                    <img src="assets/images/twitter.svg" alt="twitter" class="icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@adebsa2401" target="_blank" rel="noopener" title="Medium">
+                    <img src="assets/images/medium.svg" alt="medium" class="icon"/>
+                </a>
+            </li>
+        </ul>
+        <!-- social medias end -->
+    </section>
+    <!-- headline end -->
+
+    <!-- Recent Works section start -->
+    <section id="recent-works" class="nav-section">
+        <div>
+            <h1 class="section-title">My Recent Works</h1>
+            <hr/>
+        </div>
+
+        <!-- projects list start -->
+        <div id="projects-list">
+            <div id="projects-grid">
+            </div>
+        </div>
+        <!-- projects list end -->
+    </section>
+    <!-- Recent Works section end -->
+
+    <!-- About Me section start -->
+    <section id="about-section" class="nav-section">
+        <div id="resume-block">
+            <h1>About me</h1>
+            <div class="collapsed">
+                <p>
+                    Ben Salès is a full-stack software engineer specializing in using JavaScript, React JS, Python, PHP, and
+                    Ruby on Rails to build intelligent software solutions for businesses of all sizes.
+                    For the last 3 years, I’ve been working on exciting projects such as an ERP for small businesses,
+                    software to track COVID-related tweets, a Python library for numerical computation for fun, and many
+                    more.
+                    I also completed Microverse’s full-stack software engineering program, where I worked on projects with
+                    other developers from all over the world.
+                    As a coding lover, I’ve also participated in hackathons like the Google Hash code competition.
+                </p>
+                <p>
+                    In my free time, I enjoy a variety of hobbies and personal interests. I'm an avid chess player and love
+                    challenging my mind with strategic moves on the chessboard. I'm also a voracious reader and enjoy diving
+                    into documentaries on various topics, such as animals, nature, politics, and more, to expand my
+                    knowledge and gain new perspectives. Additionally, I have a passion for music and arts - I love singing
+                    and even dabbling in dancing. Exploring different forms of creative expression brings me joy and adds a
+                    well-rounded aspect to my life as a software engineer.
+                </p>
+                <p>
+                    My goal as a software engineer is to continue pushing the boundaries of what's possible with technology
+                    and creating innovative solutions that make a positive impact on people's lives. I'm always eager to
+                    learn new technologies and stay up-to-date with industry trends to further enhance my skills.
+                </p>
+            </div>
+            <span id="read-more">Read more...</span>
+            <button id="resume-button" type="button">Get My Resume</button>
+        </div>
+
+        <hr id="about-hr"/>
+
+        <div id="skills-block">
+            <ul>
+                <div class="skill-title-block">
+                    <div id="languages-logo" class="about-logo"></div>
+                    <h2 class="skill-title">Languages</h2>
+                </div>
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>PHP</li>
+                <li>TypeScript</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+
+            <ul>
+                <div class="skill-title-block">
+                    <div id="frameworks-logo" class="about-logo"></div>
+                    <h2 class="skill-title">Frameworks</h2>
+                </div>
+                <li>React JS</li>
+                <li>jQuery</li>
+                <li>Bootstrap</li>
+                <li>TailwindCSS</li>
+                <li>Ruby on Rails</li>
+                <li>Symfony</li>
+                <li>CapyBara</li>
+            </ul>
+
+            <ul>
+                <div class="skill-title-block">
+                    <div id="skills-logo" class="about-logo"></div>
+                    <h2 class="skill-title">Skills</h2>
+                </div>
+                <li>TDD</li>
+                <li>Agile</li>
+                <li>Git</li>
+                <li>Github</li>
+                <li>Gitlab</li>
+                <li>Gitflow</li>
+                <li>Terminal</li>
+            </ul>
+        </div>
+    </section>
+    <!-- About Me section end -->
+
+    <!-- Footer start -->
+    <footer id="contact-section" class="nav-section">
+        <p>
+            I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+        </p>
+        <form action="https://formspree.io/f/mrgdqoqz" method="post">
+            <input class="form-input" type="text" name="full_name" maxlength="30" placeholder="Full name" required>
+            <input class="form-input" type="email" name="email" placeholder="Email address" required>
+            <textarea class="form-input" name="comment" cols="30" rows="3" maxlength="500" placeholder="Enter text here"
+                      required></textarea>
+            <div id="submit-error-div">
+                <button type="submit">Get in touch</button>
+            </div>
+        </form>
+
+        <hr/>
+
+        <!-- social medias start -->
+        <ul class="social-medias">
+            <li>
+                <a href="https://www.github.com/adebsa2401" target="_blank" rel="noopener" title="Github">
+                    <img src="assets/images/github-black.svg" alt="github" class="icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/adebsa" target="_blank" rel="noopener"
+                   title="Linkedin">
+                    <img src="assets/images/linkedin-black.svg" alt="linkedin" class="icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://wellfound.com/u/adebsa" target="_blank" rel="noopener" title="Angellist">
+                    <img src="assets/images/angellist-black.svg" alt="angellist" class="icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/Adebsa3" target="_blank" rel="noopener" title="Twitter">
+                    <img src="assets/images/twitter-black.svg" alt="twitter" class="icon"/>
+                </a>
+            </li>
+            <li>
+                <a href="https://medium.com/@adebsa2401" target="_blank" rel="noopener" title="Medium">
+                    <img src="assets/images/medium-black.svg" alt="medium" class="icon"/>
+                </a>
+            </li>
+        </ul>
+        <!-- social medias end -->
+    </footer>
+    <!-- Footer end -->
+</div>
+<!-- main end -->
+
+<!-- scripts start -->
+<script src="assets/js/app.js"></script>
+<script src="assets/js/menu.js"></script>
+<script type="module" src="assets/js/projects.js"></script>
+<script src="assets/js/validation.js"></script>
+<script src="assets/js/form-storage.js"></script>
+<!-- scripts end -->
 </body>
 </html>

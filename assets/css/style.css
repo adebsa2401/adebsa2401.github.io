@@ -101,6 +101,7 @@ a {
 
 .project-card {
   display: grid;
+  /*color: #1c1a19;*/
   background-size: 100% 100%;
 }
 
@@ -224,6 +225,23 @@ button {
   background-position: bottom right;
   background-repeat: no-repeat;
   padding: 120px 24px 200px 24px;
+}
+
+.collapsed {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+#read-more {
+  color: #ff6b00;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 24px;
 }
 
 #resume-button {
