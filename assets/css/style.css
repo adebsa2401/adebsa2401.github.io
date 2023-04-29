@@ -132,6 +132,8 @@ footer p {
 
 img {
   grid-area: img;
+  max-width: 100%;
+  aspect-ratio: auto;
 }
 
 #projects-list {
