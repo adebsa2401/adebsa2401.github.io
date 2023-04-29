@@ -4,7 +4,7 @@ import getPopupHTML from './templates/projectDetailPopup.js';
 
 const PROJECTS = [
   {
-    id: 1,
+    id: 0,
     name: 'Travellers Hub',
     description: 'Travellers Hub is a travel booking app where the user can register new accounts, log in and book a set of different trip packages, users can add packages and delete them too. It is built and connected by using two different repositories, including the back end (Rails) and the front end (React/Redux).',
     featuredImage: 'project-background-2.png',
@@ -14,7 +14,7 @@ const PROJECTS = [
   },
 
   {
-    id: 2,
+    id: 1,
     name: 'SpaceX-Hub',
     description: 'Simple React app using Redux to display a list of missions and rockets from an API and allow reservation',
     featuredImage: 'project-background-1.png',
@@ -24,7 +24,7 @@ const PROJECTS = [
   },
 
   {
-    id: 3,
+    id: 2,
     name: 'WikiShow',
     description: 'Simple JavaScript app that allows the user to query TV shows from an API. He can even leave comments and likes on any show',
     featuredImage: 'project-background-3.png',
@@ -34,7 +34,7 @@ const PROJECTS = [
   },
 
   {
-    id: 4,
+    id: 3,
     name: 'Bookstore',
     description: 'Simple React app that allows creating books. It uses Redux and a backend API to save and sync data across the application',
     featuredImage: 'project-background-4.png',
