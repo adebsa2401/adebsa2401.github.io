@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1008px) {
   #projects-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
