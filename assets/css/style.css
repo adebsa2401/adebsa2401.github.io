@@ -139,7 +139,7 @@ img {
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  row-gap: 24px;
+  row-gap: 48px;
 }
 
 #projects-grid {
@@ -149,7 +149,10 @@ img {
 }
 
 .card-body {
-  padding: 8px 16px;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 ul {
@@ -162,13 +165,14 @@ li {
 
 .tags-list {
   display: flex;
-  gap: 12px;
+  width: 100%;
+  justify-content: space-between;
   padding: 0;
   grid-area: tags;
 }
 
 .tag {
-  padding: 12px;
+  padding: 5%;
   background: #ffffff3d;
 }
 
@@ -200,13 +204,12 @@ li {
 }
 
 button {
-  padding: 12px;
   background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 48px;
   color: #fff;
   border: none;
 }

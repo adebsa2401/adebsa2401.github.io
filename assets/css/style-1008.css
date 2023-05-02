@@ -1,0 +1,7 @@
+@media screen and (min-width: 1000px) {
+  #projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+  }
+}
