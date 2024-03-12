@@ -1,8 +1,8 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://adebsa2401.github.io/assets/images/adebsa.png)
 
-# Microverse Portfolio
+# Ben Salès's Portfolio
 
-> This is the repository of Ben Salès's portfolio built during the Microverse's software developer program
+> This is the repository of Ben Salès's portfolio
 
 
 ## Built With
